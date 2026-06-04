@@ -1,6 +1,7 @@
 <div align="center">
 
-# Douglas Cruz de Araújo
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:39D353&height=140&section=header&text=Douglas%20Cruz%20de%20Ara%C3%BAjo&fontSize=36&fontColor=39D353&animation=fadeIn&fontAlignY=65" />
+
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=39D353&center=true&vCenter=true&width=500&lines=Backend+Developer;Scalable+Systems+%26+Clean+Architecture;APIs+%7C+SaaS+%7C+Distributed+Systems)](https://git.io/typing-svg)
 
