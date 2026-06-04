@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://github.com/Douglas-dev404.png" width="110" />
-
 # Douglas Cruz de Araújo
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=39D353&center=true&vCenter=true&width=500&lines=Backend+Developer;Scalable+Systems+%26+Clean+Architecture;APIs+%7C+SaaS+%7C+Distributed+Systems)](https://git.io/typing-svg)
