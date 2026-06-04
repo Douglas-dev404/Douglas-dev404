@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/WhatsApp Image 2026-06-04 at 15.21.16.jpeg" width="110" style="border-radius:50%" />
+<img src="https://github.com/Douglas-dev404.png" width="110" />
 
 # Douglas Cruz de Araújo
 
