@@ -1009,47 +1009,6 @@
     var points = new THREE.Points(geometry, material);
     scene.add(points);
 
-    /* ── Connecting lines, sparse on purpose ─────────
-       Scan a subset for genuine near-neighbours: random
-       pairs across the whole cloud are almost never close. */
-    var linePositions = [];
-    var LINK_DIST = 2.1;
-    var MAX_LINKS = 170;
-    var STEP = 7;   // sample every Nth particle to keep this cheap
-
-    for (var i1 = 0; i1 < COUNT && linePositions.length < MAX_LINKS * 6; i1 += STEP) {
-      var linked = 0;
-
-      for (var i2 = i1 + STEP; i2 < COUNT; i2 += STEP) {
-        var dx = positions[i1 * 3]     - positions[i2 * 3];
-        var dy = positions[i1 * 3 + 1] - positions[i2 * 3 + 1];
-        var dz = positions[i1 * 3 + 2] - positions[i2 * 3 + 2];
-
-        if (dx * dx + dy * dy + dz * dz < LINK_DIST * LINK_DIST) {
-          linePositions.push(
-            positions[i1 * 3], positions[i1 * 3 + 1], positions[i1 * 3 + 2],
-            positions[i2 * 3], positions[i2 * 3 + 1], positions[i2 * 3 + 2]
-          );
-
-          // Cap per-node links so dense pockets don't turn into a blob.
-          if (++linked >= 2) break;
-        }
-      }
-    }
-
-    var lineGeo = new THREE.BufferGeometry();
-    lineGeo.setAttribute('position',
-      new THREE.BufferAttribute(new Float32Array(linePositions), 3));
-
-    var lines = new THREE.LineSegments(lineGeo, new THREE.LineBasicMaterial({
-      color: '#39d353',
-      transparent: true,
-      opacity: 0.16,
-      depthWrite: false,
-      blending: THREE.AdditiveBlending
-    }));
-    scene.add(lines);
-
     /* ── Resize ──────────────────────────────────── */
     window.addEventListener('resize', function () {
       camera.aspect = window.innerWidth / window.innerHeight;
@@ -1083,7 +1042,6 @@
       geometry.attributes.position.needsUpdate = true;
 
       points.rotation.y = t * 0.028;
-      lines.rotation.y = t * 0.028;
 
       // Camera eases toward the pointer for parallax depth.
       var p = window.__pointer || { x: 0, y: 0 };
