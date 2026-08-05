@@ -19,8 +19,20 @@
 </head>
 <body>
 
+  <div class="progress-bar" aria-hidden="true"></div>
   <div class="backdrop" aria-hidden="true"></div>
+  <canvas class="particles" aria-hidden="true"></canvas>
   <div class="spotlight" aria-hidden="true"></div>
+
+  <nav class="dot-nav" aria-label="Section navigation">
+    <a href="#about"          data-label="About"></a>
+    <a href="#languages"      data-label="Languages"></a>
+    <a href="#frameworks"     data-label="Frameworks"></a>
+    <a href="#data"           data-label="Data"></a>
+    <a href="#architecture"   data-label="Architecture"></a>
+    <a href="#infrastructure" data-label="Infrastructure"></a>
+    <a href="#tooling"        data-label="Tooling"></a>
+  </nav>
 
   <!-- ═══ HERO ═══════════════════════════════════════ -->
   <header class="hero shell">
@@ -47,13 +59,17 @@
         </p>
 
         <div class="hero-links">
-          <a href="mailto:doucrinei0110@gmail.com" class="btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            Get in touch
+          <a href="mailto:doucrinei0110@gmail.com" class="btn" data-magnetic>
+            <span class="btn-inner">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              Get in touch
+            </span>
           </a>
-          <a href="https://github.com/Douglas-dev404" target="_blank" rel="noopener" class="btn btn-outline">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
-            GitHub
+          <a href="https://github.com/Douglas-dev404" target="_blank" rel="noopener" class="btn btn-outline" data-magnetic>
+            <span class="btn-inner">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              GitHub
+            </span>
           </a>
         </div>
       </div>
@@ -87,7 +103,7 @@
   <main class="shell">
 
     <!-- ═══ ABOUT ════════════════════════════════════ -->
-    <section class="section">
+    <section class="section" id="about">
       <div class="section-head" data-reveal>
         <span class="section-index">01</span>
         <h2 class="section-title">About</h2>
@@ -102,7 +118,7 @@
     </section>
 
     <!-- ═══ LANGUAGES ════════════════════════════════ -->
-    <section class="section">
+    <section class="section" id="languages">
       <div class="section-head" data-reveal>
         <span class="section-index">02</span>
         <h2 class="section-title">Languages</h2>
@@ -149,7 +165,7 @@
     </section>
 
     <!-- ═══ FRAMEWORKS ═══════════════════════════════ -->
-    <section class="section">
+    <section class="section" id="frameworks">
       <div class="section-head" data-reveal>
         <span class="section-index">03</span>
         <h2 class="section-title">Frameworks &amp; Libraries</h2>
@@ -290,7 +306,7 @@
     </section>
 
     <!-- ═══ DATA & MESSAGING ═════════════════════════ -->
-    <section class="section">
+    <section class="section" id="data">
       <div class="section-head" data-reveal>
         <span class="section-index">04</span>
         <h2 class="section-title">Data &amp; Messaging</h2>
@@ -371,7 +387,7 @@
     </section>
 
     <!-- ═══ ARCHITECTURE ═════════════════════════════ -->
-    <section class="section">
+    <section class="section" id="architecture">
       <div class="section-head" data-reveal>
         <span class="section-index">05</span>
         <h2 class="section-title">Architecture &amp; Security</h2>
@@ -424,7 +440,7 @@
     </section>
 
     <!-- ═══ INFRASTRUCTURE ═══════════════════════════ -->
-    <section class="section">
+    <section class="section" id="infrastructure">
       <div class="section-head" data-reveal>
         <span class="section-index">06</span>
         <h2 class="section-title">Infrastructure &amp; DevOps</h2>
@@ -535,7 +551,7 @@
     </section>
 
     <!-- ═══ TESTING & TOOLS ══════════════════════════ -->
-    <section class="section">
+    <section class="section" id="tooling">
       <div class="section-head" data-reveal>
         <span class="section-index">07</span>
         <h2 class="section-title">Testing &amp; Tools</h2>
@@ -760,6 +776,328 @@
 
       counters.forEach(function (el) { counterObserver.observe(el); });
     }
+
+    /* ── Scroll progress bar ──────────────────────── */
+    var bar = document.querySelector('.progress-bar');
+    var barTicking = false;
+
+    function drawProgress() {
+      var de = document.documentElement;
+      var max = de.scrollHeight - de.clientHeight;
+      var ratio = max > 0 ? de.scrollTop / max : 0;
+      bar.style.transform = 'scaleX(' + ratio.toFixed(4) + ')';
+      barTicking = false;
+    }
+
+    if (bar) {
+      window.addEventListener('scroll', function () {
+        if (!barTicking) {
+          barTicking = true;
+          requestAnimationFrame(drawProgress);
+        }
+      }, { passive: true });
+      drawProgress();
+    }
+
+    /* ── Dot navigation + active section ──────────── */
+    var nav = document.querySelector('.dot-nav');
+    if (nav) {
+      var dots = [].slice.call(nav.querySelectorAll('a'));
+
+      // Reveal the nav only once the hero is behind us.
+      var hero = document.querySelector('.hero');
+      if (hero && 'IntersectionObserver' in window) {
+        new IntersectionObserver(function (entries) {
+          nav.classList.toggle('is-live', !entries[0].isIntersecting);
+        }, { threshold: 0.15 }).observe(hero);
+      } else {
+        nav.classList.add('is-live');
+      }
+
+      if ('IntersectionObserver' in window) {
+        var sectionObserver = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+            var id = entry.target.id;
+            dots.forEach(function (d) {
+              d.classList.toggle('is-active', d.getAttribute('href') === '#' + id);
+            });
+          });
+        }, { rootMargin: '-45% 0px -50% 0px' });
+
+        dots.forEach(function (d) {
+          var sec = document.querySelector(d.getAttribute('href'));
+          if (sec) sectionObserver.observe(sec);
+        });
+      }
+    }
+
+    /* ── Split section titles into characters ─────── */
+    document.querySelectorAll('.section-title').forEach(function (title) {
+      var text = title.textContent;
+      title.setAttribute('aria-label', text);
+      title.textContent = '';
+
+      text.split('').forEach(function (ch, i) {
+        var span = document.createElement('span');
+        span.className = 'char' + (ch === ' ' ? ' is-space' : '');
+        span.textContent = ch === ' ' ? ' ' : ch;
+        span.style.setProperty('--i', i);
+        span.setAttribute('aria-hidden', 'true');
+        title.appendChild(span);
+      });
+    });
+
+    /* ── Magnetic buttons ─────────────────────────── */
+    if (!reduceMotion && window.matchMedia('(pointer: fine)').matches) {
+      document.querySelectorAll('[data-magnetic]').forEach(function (btn) {
+        var inner = btn.querySelector('.btn-inner');
+        var strength = 0.32;
+
+        btn.addEventListener('pointermove', function (e) {
+          var r = btn.getBoundingClientRect();
+          var dx = e.clientX - (r.left + r.width / 2);
+          var dy = e.clientY - (r.top + r.height / 2);
+          btn.style.transform =
+            'translate(' + (dx * strength) + 'px,' + (dy * strength) + 'px) translateY(-2px)';
+          if (inner) {
+            inner.style.transform =
+              'translate(' + (dx * strength * 0.4) + 'px,' + (dy * strength * 0.4) + 'px)';
+          }
+        }, { passive: true });
+
+        btn.addEventListener('pointerleave', function () {
+          btn.style.transform = '';
+          if (inner) inner.style.transform = '';
+        });
+      });
+    }
+
+    /* ── Hero parallax ────────────────────────────── */
+    var portrait = document.querySelector('.hero-portrait');
+    if (portrait && !reduceMotion) {
+      var parallaxTicking = false;
+
+      window.addEventListener('scroll', function () {
+        if (parallaxTicking) return;
+        parallaxTicking = true;
+
+        requestAnimationFrame(function () {
+          var y = window.scrollY;
+          // Stop translating once the hero has scrolled away.
+          if (y < window.innerHeight) {
+            portrait.style.transform = 'translateY(' + (y * 0.14).toFixed(1) + 'px)';
+          }
+          parallaxTicking = false;
+        });
+      }, { passive: true });
+    }
+
+    /* Pointer position is shared with the WebGL module below. */
+    window.__pointer = { x: 0, y: 0 };
+    window.addEventListener('pointermove', function (e) {
+      window.__pointer.x = (e.clientX / window.innerWidth) * 2 - 1;
+      window.__pointer.y = -(e.clientY / window.innerHeight) * 2 + 1;
+    }, { passive: true });
+  })();
+  </script>
+
+  <!-- ═══ 3D PARTICLE FIELD (three.js) ═══════════════
+       Progressive enhancement: if the CDN or WebGL is
+       unavailable, the CSS backdrop alone still stands. -->
+  <script type="module">
+  (async function () {
+    'use strict';
+
+    var canvas = document.querySelector('.particles');
+    if (!canvas) return;
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (window.matchMedia('(pointer: coarse)').matches) return;   // skip on touch
+
+    var THREE;
+    try {
+      THREE = await import('https://cdn.jsdelivr.net/npm/three@0.185.1/build/three.module.min.js');
+    } catch (err) {
+      return;   // CDN unreachable — the static backdrop is enough.
+    }
+
+    var renderer;
+    try {
+      renderer = new THREE.WebGLRenderer({
+        canvas: canvas,
+        alpha: true,
+        antialias: true,
+        powerPreference: 'low-power'
+      });
+    } catch (err) {
+      return;   // No WebGL context available.
+    }
+
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(
+      62, window.innerWidth / window.innerHeight, 0.1, 100
+    );
+    camera.position.z = 15;
+
+    /* ── Particle cloud ──────────────────────────── */
+    var COUNT = 1400;
+    var SPREAD = 26;
+    var positions = new Float32Array(COUNT * 3);
+    var colors = new Float32Array(COUNT * 3);
+    var drift = new Float32Array(COUNT);
+
+    var accent = new THREE.Color('#39d353');
+    var pale = new THREE.Color('#9fe8b0');
+
+    for (var i = 0; i < COUNT; i++) {
+      positions[i * 3]     = (Math.random() - 0.5) * SPREAD;
+      positions[i * 3 + 1] = (Math.random() - 0.5) * SPREAD;
+      positions[i * 3 + 2] = (Math.random() - 0.5) * SPREAD;
+
+      drift[i] = Math.random() * Math.PI * 2;
+
+      // Mostly accent green, a few paler highlights for depth.
+      var c = Math.random() > 0.82 ? pale : accent;
+      colors[i * 3]     = c.r;
+      colors[i * 3 + 1] = c.g;
+      colors[i * 3 + 2] = c.b;
+    }
+
+    var geometry = new THREE.BufferGeometry();
+    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+
+    /* Points render as squares by default; a radial-gradient
+       sprite turns them into soft round dots. */
+    function makeDotTexture() {
+      var size = 64;
+      var cv = document.createElement('canvas');
+      cv.width = cv.height = size;
+
+      var c2 = cv.getContext('2d');
+      var grad = c2.createRadialGradient(
+        size / 2, size / 2, 0,
+        size / 2, size / 2, size / 2
+      );
+      grad.addColorStop(0,    'rgba(255,255,255,1)');
+      grad.addColorStop(0.35, 'rgba(255,255,255,0.75)');
+      grad.addColorStop(1,    'rgba(255,255,255,0)');
+
+      c2.fillStyle = grad;
+      c2.fillRect(0, 0, size, size);
+
+      var tex = new THREE.CanvasTexture(cv);
+      tex.colorSpace = THREE.SRGBColorSpace;
+      return tex;
+    }
+
+    var material = new THREE.PointsMaterial({
+      size: 0.14,
+      map: makeDotTexture(),
+      vertexColors: true,
+      transparent: true,
+      opacity: 0.6,
+      sizeAttenuation: true,
+      depthWrite: false,
+      blending: THREE.AdditiveBlending
+    });
+
+    var points = new THREE.Points(geometry, material);
+    scene.add(points);
+
+    /* ── Connecting lines, sparse on purpose ─────────
+       Scan a subset for genuine near-neighbours: random
+       pairs across the whole cloud are almost never close. */
+    var linePositions = [];
+    var LINK_DIST = 2.1;
+    var MAX_LINKS = 170;
+    var STEP = 7;   // sample every Nth particle to keep this cheap
+
+    for (var i1 = 0; i1 < COUNT && linePositions.length < MAX_LINKS * 6; i1 += STEP) {
+      var linked = 0;
+
+      for (var i2 = i1 + STEP; i2 < COUNT; i2 += STEP) {
+        var dx = positions[i1 * 3]     - positions[i2 * 3];
+        var dy = positions[i1 * 3 + 1] - positions[i2 * 3 + 1];
+        var dz = positions[i1 * 3 + 2] - positions[i2 * 3 + 2];
+
+        if (dx * dx + dy * dy + dz * dz < LINK_DIST * LINK_DIST) {
+          linePositions.push(
+            positions[i1 * 3], positions[i1 * 3 + 1], positions[i1 * 3 + 2],
+            positions[i2 * 3], positions[i2 * 3 + 1], positions[i2 * 3 + 2]
+          );
+
+          // Cap per-node links so dense pockets don't turn into a blob.
+          if (++linked >= 2) break;
+        }
+      }
+    }
+
+    var lineGeo = new THREE.BufferGeometry();
+    lineGeo.setAttribute('position',
+      new THREE.BufferAttribute(new Float32Array(linePositions), 3));
+
+    var lines = new THREE.LineSegments(lineGeo, new THREE.LineBasicMaterial({
+      color: '#39d353',
+      transparent: true,
+      opacity: 0.16,
+      depthWrite: false,
+      blending: THREE.AdditiveBlending
+    }));
+    scene.add(lines);
+
+    /* ── Resize ──────────────────────────────────── */
+    window.addEventListener('resize', function () {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    }, { passive: true });
+
+    /* ── Pause when the tab is hidden ────────────── */
+    var visible = true;
+    document.addEventListener('visibilitychange', function () {
+      visible = !document.hidden;
+      if (visible) requestAnimationFrame(render);
+    });
+
+    /* ── Render loop ─────────────────────────────── */
+    var basePositions = positions.slice();
+    var camX = 0, camY = 0;
+    var startedAt = performance.now();
+
+    function render() {
+      if (!visible) return;
+
+      var t = (performance.now() - startedAt) / 1000;
+      var pos = geometry.attributes.position.array;
+
+      // Gentle vertical bobbing keeps the field alive.
+      for (var i = 0; i < COUNT; i++) {
+        pos[i * 3 + 1] = basePositions[i * 3 + 1] +
+                         Math.sin(t * 0.32 + drift[i]) * 0.28;
+      }
+      geometry.attributes.position.needsUpdate = true;
+
+      points.rotation.y = t * 0.028;
+      lines.rotation.y = t * 0.028;
+
+      // Camera eases toward the pointer for parallax depth.
+      var p = window.__pointer || { x: 0, y: 0 };
+      camX += (p.x * 1.4 - camX) * 0.035;
+      camY += (p.y * 0.9 - camY) * 0.035;
+      camera.position.x = camX;
+      camera.position.y = camY;
+      camera.lookAt(0, 0, 0);
+
+      renderer.render(scene, camera);
+      requestAnimationFrame(render);
+    }
+
+    requestAnimationFrame(render);
   })();
   </script>
 
