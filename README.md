@@ -39,7 +39,7 @@ $ whoami
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,java,nodejs,ts,python&theme=dark" alt="languages" />
+<img src="https://skillicons.dev/icons?i=cs,java,nodejs,ts,python,ruby&theme=dark" alt="languages" />
 
 </div>
 
@@ -89,6 +89,28 @@ $ whoami
 
 `FastAPI` `Flask` `Playwright`
 `Selenium` `Pandas` `Pydantic`
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+**Ruby on Rails**
+
+<img src="https://skillicons.dev/icons?i=rails,ruby&theme=dark" height="40" />
+
+`Rails` `ActiveRecord` `Devise`
+`Puma` `Hotwire` `RubyGems`
+
+</td>
+<td valign="top" width="50%">
+
+**Ruby · Jobs &amp; Quality**
+
+<img src="https://skillicons.dev/icons?i=redis&theme=dark" height="40" />
+
+`Sidekiq` `ActiveJob` `Redis`
+`RSpec` `RuboCop` `Capistrano`
 
 </td>
 </tr>

@@ -567,10 +567,18 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
+  align-items: stretch;   /* cards in a row share the tallest height */
 }
 
 .card-grid > .card {
   flex: 1 1 300px;
+}
+
+/* Ecosystem cards hold uneven icon counts, so pin them to a
+   two-per-row rhythm and let the icon grid absorb the difference. */
+.card-grid.is-even > .card {
+  flex: 1 1 calc(50% - 7px);
+  min-width: 300px;
 }
 
 .card {
