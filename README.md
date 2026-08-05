@@ -1,198 +1,185 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:39D353&height=140&section=header&text=Douglas%20Cruz%20de%20Ara%C3%BAjo&fontSize=36&fontColor=39D353&animation=fadeIn&fontAlignY=65" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0c0f,50:145c26,100:39D353&height=180&section=header&text=Douglas%20Cruz%20de%20Ara%C3%BAjo&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%C2%B7%20Scalable%20Systems%20%C2%B7%20Clean%20Architecture&descAlignY=58&descSize=16" />
 
+<br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=39D353&center=true&vCenter=true&width=500&lines=Backend+Developer;Scalable+Systems+%26+Clean+Architecture;APIs+%7C+SaaS+%7C+Distributed+Systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=39D353&center=true&vCenter=true&width=560&height=45&lines=Backend+Developer;Clean+Architecture+%26+DDD;Distributed+Systems+%26+Queues;APIs+%7C+SaaS+%7C+Automation)](https://github.com/Douglas-dev404)
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:doucrinei0110@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Douglas-dev404)
-[![Portfolio](https://img.shields.io/badge/Portfolio-39D353?style=for-the-badge&logo=vercel&logoColor=white)](https://douglas-dev404.github.io/Douglas-dev404)
+<br>
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-39D353?style=for-the-badge&logo=vercel&logoColor=0b0c0f&labelColor=0b0c0f)](https://douglas-dev404.github.io/Douglas-dev404)
+[![Gmail](https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b0c0f)](mailto:doucrinei0110@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0b0c0f)](https://github.com/Douglas-dev404)
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=Douglas-dev404&style=flat-square&color=39D353&label=PROFILE+VIEWS" alt="profile views" />
 
 </div>
 
----
-
-<details open>
-<summary><b>Languages</b></summary>
 <br>
 
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+```console
+$ whoami
+→ Backend developer building APIs, SaaS platforms and automation systems.
+→ Focused on clean architecture, security and production-ready infrastructure.
+→ From the domain model up to the server it runs on.
+```
 
-</details>
-
----
-
-<details open>
-<summary><b>Frameworks & Libraries</b></summary>
 <br>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Douglas-dev404/Douglas-dev404/output/snake.svg" alt="snake animation" />
+</div>
+
+<br>
+
+## 🧬 &nbsp;Languages
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=cs,java,nodejs,ts,python&theme=dark" alt="languages" />
+
+</div>
+
+<br>
+
+## 🚀 &nbsp;Frameworks &amp; Libraries
+
+<table>
+<tr>
+<td valign="top" width="50%">
 
 **C# / .NET**
 
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![ASP.NET Identity](https://img.shields.io/badge/ASP.NET_Identity-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![FluentValidation](https://img.shields.io/badge/FluentValidation-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![MediatR](https://img.shields.io/badge/MediatR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![AutoMapper](https://img.shields.io/badge/AutoMapper-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+<img src="https://skillicons.dev/icons?i=dotnet&theme=dark" height="40" />
+
+`ASP.NET Core` `EF Core` `Identity`
+`FluentValidation` `MediatR` `AutoMapper`
+
+</td>
+<td valign="top" width="50%">
 
 **Java**
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![MapStruct](https://img.shields.io/badge/MapStruct-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+<img src="https://skillicons.dev/icons?i=spring,hibernate,maven&theme=dark" height="40" />
+
+`Spring Boot` `Spring Security`
+`Spring Data JPA` `Hibernate` `MapStruct`
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
 
 **Node.js / TypeScript**
 
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
-![Zod](https://img.shields.io/badge/Zod-3068B7?style=flat-square&logo=zod&logoColor=white)
-![Passport.js](https://img.shields.io/badge/Passport.js-34E27A?style=flat-square&logo=passport&logoColor=white)
+<img src="https://skillicons.dev/icons?i=nestjs,express,fastify,prisma&theme=dark" height="40" />
+
+`NestJS` `Express` `Fastify`
+`Prisma` `Drizzle` `Zod` `Passport.js`
+
+</td>
+<td valign="top" width="50%">
 
 **Python**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-E6522C?style=flat-square&logo=playwright&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+<img src="https://skillicons.dev/icons?i=fastapi,flask,selenium&theme=dark" height="40" />
 
-</details>
+`FastAPI` `Flask` `Playwright`
+`Selenium` `Pandas` `Pydantic`
 
----
+</td>
+</tr>
+</table>
 
-<details open>
-<summary><b>Databases & Messaging</b></summary>
 <br>
 
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Messaging & Queues**
-
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BullMQ-FF0000?style=flat-square&logo=redis&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
-
-`Message Queues` `Job Queues` `Dead Letter Queues` `Priority Queues` `Event-Driven Architecture` `Pub/Sub`
-
-</details>
-
----
-
-<details open>
-<summary><b>Architecture & Design</b></summary>
-<br>
-
-`Clean Architecture` `Layered Architecture` `Modular Monolith` `Domain Driven Design (DDD)`
-`Design Patterns` `SOLID` `RBAC` `Secure API Design` `Input Validation`
-
-</details>
-
----
-
-<details open>
-<summary><b>Security</b></summary>
-<br>
-
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=flat-square&logo=auth0&logoColor=white)
-![ASP.NET Identity](https://img.shields.io/badge/ASP.NET_Identity-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-
-`Firewall (UFW · iptables · Windows Firewall)` `SSL/TLS` `Let's Encrypt` `Network Hardening` `DNS Management`
-
-</details>
-
----
-
-<details open>
-<summary><b>Infrastructure & DevOps</b></summary>
-<br>
-
-**Containers & Orchestration**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-
-**CI/CD**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-
-**Cloud & Deploy**
-
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Coolify](https://img.shields.io/badge/Coolify-6B16FA?style=flat-square&logo=coolify&logoColor=white)
-
-**Servers & Web**
-
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-
-**Monitoring**
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-
-</details>
-
----
-
-<details open>
-<summary><b>Testing & Tools</b></summary>
-<br>
-
-![xUnit](https://img.shields.io/badge/xUnit-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ-000000?style=flat-square&logo=intellijidea&logoColor=white)
-
-</details>
-
----
-
-<details open>
-<summary><b>GitHub Stats</b></summary>
-<br>
+## 🗄️ &nbsp;Data &amp; Messaging
 
 <div align="center">
 
-<img width="700" src="https://github-readme-streak-stats.herokuapp.com?user=Douglas-dev404&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-
-<img width="700" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Douglas-dev404&theme=tokyonight" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,rabbitmq&theme=dark" alt="data" />
 
 </div>
 
-</details>
+**Databases** &nbsp;&nbsp; `PostgreSQL` `SQL Server` `MySQL` `Redis`
 
----
+**Messaging &amp; Real-Time** &nbsp;&nbsp; `RabbitMQ` `BullMQ` `Socket.IO` `WebSockets`
+
+**Patterns** &nbsp;&nbsp; `Message Queues` `Job Queues` `Dead Letter Queues` `Priority Queues` `Event-Driven` `Pub/Sub`
+
+<br>
+
+## 🏛️ &nbsp;Architecture &amp; Security
+
+**Architecture** &nbsp;&nbsp; `Clean Architecture` `Layered Architecture` `Modular Monolith` `DDD` `Design Patterns` `SOLID`
+
+**Security** &nbsp;&nbsp; `JWT` `OAuth2` `RBAC` `Secure API Design` `Input Validation` `SSL/TLS` `Let's Encrypt`
+
+**Network** &nbsp;&nbsp; `Firewall (UFW · iptables)` `Network Hardening` `DNS Management`
+
+<br>
+
+## ☁️ &nbsp;Infrastructure &amp; DevOps
 
 <div align="center">
-  <sub>Currently working on SaaS platforms, automation systems and scalable backend architectures.</sub>
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,gitlab,jenkins&theme=dark" alt="devops" />
+<img src="https://skillicons.dev/icons?i=gcp,aws,cloudflare,linux,ubuntu,nginx,grafana,prometheus&theme=dark" alt="cloud" />
+
+</div>
+
+**Containers** &nbsp;&nbsp; `Docker` `Kubernetes`
+
+**CI/CD** &nbsp;&nbsp; `GitHub Actions` `GitLab CI` `Jenkins`
+
+**Cloud** &nbsp;&nbsp; `Google Cloud` `AWS` `DigitalOcean` `Cloudflare` `Coolify`
+
+**Servers** &nbsp;&nbsp; `Ubuntu` `Debian` `Windows Server` `Nginx`
+
+**Monitoring** &nbsp;&nbsp; `Prometheus` `Grafana`
+
+<br>
+
+## 🧪 &nbsp;Testing &amp; Tools
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,idea,postman&theme=dark" alt="tools" />
+
+</div>
+
+**Testing** &nbsp;&nbsp; `xUnit` `JUnit` `Jest`
+
+**Tools** &nbsp;&nbsp; `Git` `GitHub` `VS Code` `Visual Studio` `IntelliJ` `Postman` `Swagger`
+
+<br>
+
+## 📊 &nbsp;GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Douglas-dev404&show_icons=true&hide_border=true&bg_color=0b0c0f&title_color=39D353&icon_color=39D353&text_color=9aa3ae&ring_color=39D353" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Douglas-dev404&layout=compact&hide_border=true&bg_color=0b0c0f&title_color=39D353&text_color=9aa3ae&langs_count=6" />
+
+<br><br>
+
+<img width="70%" src="https://streak-stats.demolab.com?user=Douglas-dev404&hide_border=true&background=0b0c0f&stroke=1c1f26&ring=39D353&fire=39D353&currStreakLabel=39D353&sideLabels=9aa3ae&currStreakNum=edf0f4&sideNums=edf0f4&dates=646c78" />
+
+<br><br>
+
+<img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Douglas-dev404&bg_color=0b0c0f&color=edf0f4&line=39D353&point=39D353&area=true&area_color=39D353&hide_border=true" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:39D353,50:145c26,100:0b0c0f&height=120&section=footer&text=Let's%20build%20something%20that%20scales&fontSize=18&fontColor=ffffff&fontAlignY=75" />
+
+<sub>Currently working on SaaS platforms, automation systems and scalable backend architectures.</sub>
+
 </div>

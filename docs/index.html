@@ -4,242 +4,589 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Douglas Cruz de Araújo · Backend Developer</title>
+  <meta name="description" content="Backend developer building APIs, SaaS platforms and scalable infrastructure. Clean architecture, security and production-grade systems." />
+  <meta name="theme-color" content="#0b0c0f" />
+
+  <meta property="og:title" content="Douglas Cruz de Araújo · Backend Developer" />
+  <meta property="og:description" content="Scalable systems, distributed architectures, production-grade infrastructure." />
+  <meta property="og:type" content="website" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- HERO -->
-  <header class="hero">
-    <div class="hero-content">
-      <img class="hero-avatar" src="WhatsApp Image 2026-06-04 at 15.21.16.jpeg" alt="Douglas Cruz de Araújo" />
+  <div class="backdrop" aria-hidden="true"></div>
+  <div class="spotlight" aria-hidden="true"></div>
+
+  <!-- ═══ HERO ═══════════════════════════════════════ -->
+  <header class="hero shell">
+    <p class="hero-eyebrow">
+      <span class="status-dot"></span>
+      Available for backend work
+    </p>
+
+    <div class="hero-layout">
       <div>
-        <h1>Douglas Cruz de Araújo</h1>
-        <p class="hero-subtitle">Backend Developer</p>
-        <p class="hero-desc">Scalable Systems · Distributed Architectures · Software Engineering</p>
+        <h1>
+          <span class="line"><span>Douglas Cruz</span></span>
+          <span class="line"><span>de Araújo</span></span>
+        </h1>
+
+        <p class="hero-role">
+          <span class="prompt">&gt;</span><span data-typing
+            data-words="Backend Developer|Clean Architecture|Distributed Systems|SaaS &amp; APIs"></span><span class="caret"></span>
+        </p>
+
+        <p class="hero-desc">
+          I build APIs, SaaS platforms and automation systems — with clean
+          architecture, security and infrastructure that holds up in production.
+        </p>
+
         <div class="hero-links">
           <a href="mailto:doucrinei0110@gmail.com" class="btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            Gmail
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Get in touch
           </a>
-          <a href="https://github.com/Douglas-dev404" target="_blank" class="btn btn-outline">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          <a href="https://github.com/Douglas-dev404" target="_blank" rel="noopener" class="btn btn-outline">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
             GitHub
           </a>
         </div>
       </div>
+
+      <div class="hero-portrait">
+        <img src="WhatsApp Image 2026-06-04 at 15.21.16.jpeg" alt="Douglas Cruz de Araújo" />
+      </div>
+    </div>
+
+    <!-- Animated counters -->
+    <div class="metrics">
+      <div class="metric">
+        <div class="metric-value"><span data-count="5">0</span></div>
+        <div class="metric-label">Languages</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value"><span data-count="40" data-suffix="+">0</span></div>
+        <div class="metric-label">Technologies</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value"><span data-count="4">0</span></div>
+        <div class="metric-label">Cloud Providers</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value"><span data-count="100" data-suffix="%">0</span></div>
+        <div class="metric-label">Backend Focus</div>
+      </div>
     </div>
   </header>
 
-  <main>
+  <main class="shell">
 
-    <!-- ABOUT -->
+    <!-- ═══ ABOUT ════════════════════════════════════ -->
     <section class="section">
-      <p class="about-text">
-        Backend developer with experience building APIs, SaaS platforms, automation systems and enterprise applications.
-        Focused on clean architecture, security and production-ready infrastructure.
+      <div class="section-head" data-reveal>
+        <span class="section-index">01</span>
+        <h2 class="section-title">About</h2>
+      </div>
+      <p class="about-text" data-reveal>
+        Backend developer with experience building <strong>APIs</strong>,
+        <strong>SaaS platforms</strong>, automation systems and enterprise
+        applications. Focused on clean architecture, security and
+        production-ready infrastructure — from the domain model up to the
+        server it runs on.
       </p>
     </section>
 
-    <!-- BACKEND -->
+    <!-- ═══ LANGUAGES ════════════════════════════════ -->
     <section class="section">
-      <h2 class="section-title">▾ Languages</h2>
-
-      <div class="category-grid">
-        <div class="cat-block lang-card">
-          <div class="icon-item"><i class="devicon-csharp-plain colored"></i><span>C#</span></div>
-        </div>
-        <div class="cat-block lang-card">
-          <div class="icon-item"><i class="devicon-java-plain colored"></i><span>Java</span></div>
-        </div>
-        <div class="cat-block lang-card">
-          <div class="icon-item"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
-        </div>
-        <div class="cat-block lang-card">
-          <div class="icon-item"><i class="devicon-typescript-plain colored"></i><span>TypeScript</span></div>
-        </div>
-        <div class="cat-block lang-card">
-          <div class="icon-item"><i class="devicon-python-plain colored"></i><span>Python</span></div>
-        </div>
+      <div class="section-head" data-reveal>
+        <span class="section-index">02</span>
+        <h2 class="section-title">Languages</h2>
+        <span class="section-note">Core stack</span>
       </div>
 
-      <h2 class="section-title" style="margin-top:32px">▾ Frameworks & Libraries</h2>
-      <div class="category-grid">
-
-        <div class="cat-block">
-          <span class="cat-label">C# / .NET</span>
-          <div class="icon-grid">
-            <div class="icon-item"><i class="devicon-dotnetcore-plain colored"></i><span>ASP.NET Core</span></div>
-            <div class="icon-item"><i class="devicon-dotnetcore-plain colored"></i><span>EF Core</span></div>
-            <div class="icon-item"><i class="devicon-dotnetcore-plain colored"></i><span>FluentValidation</span></div>
-            <div class="icon-item"><i class="devicon-dotnetcore-plain colored"></i><span>MediatR</span></div>
-            <div class="icon-item"><i class="devicon-dotnetcore-plain colored"></i><span>AutoMapper</span></div>
-            <div class="icon-item"><i class="devicon-dotnetcore-plain colored"></i><span>Identity</span></div>
+      <div class="lang-row">
+        <div class="lang-card" data-tilt data-reveal style="--reveal-delay:0ms">
+          <i class="devicon-csharp-plain colored glyph"></i>
+          <div>
+            <div class="lang-name">C#</div>
+            <div class="lang-meta">.NET · ASP.NET</div>
           </div>
         </div>
-
-        <div class="cat-block">
-          <span class="cat-label">Java</span>
-          <div class="icon-grid">
-            <div class="icon-item si-item" style="--si-color:#6DB33F;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/spring.svg')"><span class="si-icon"></span><span>Spring Boot</span></div>
-            <div class="icon-item si-item" style="--si-color:#6DB33F;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/spring.svg')"><span class="si-icon"></span><span>Spring Security</span></div>
-            <div class="icon-item si-item" style="--si-color:#59666C;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/hibernate.svg')"><span class="si-icon"></span><span>Hibernate</span></div>
-            <div class="icon-item si-item" style="--si-color:#C71A36;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/apachemaven.svg')"><span class="si-icon"></span><span>Maven</span></div>
-            <div class="icon-item"><i class="devicon-java-plain colored"></i><span>MapStruct</span></div>
+        <div class="lang-card" data-tilt data-reveal style="--reveal-delay:60ms">
+          <i class="devicon-java-plain colored glyph"></i>
+          <div>
+            <div class="lang-name">Java</div>
+            <div class="lang-meta">Spring · JPA</div>
           </div>
         </div>
-
-        <div class="cat-block">
-          <span class="cat-label">Node.js / TypeScript</span>
-          <div class="icon-grid">
-            <div class="icon-item si-item" style="--si-color:#E0234E;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/nestjs.svg')"><span class="si-icon"></span><span>NestJS</span></div>
-            <div class="icon-item"><i class="devicon-express-original"></i><span>Express</span></div>
-            <div class="icon-item si-item" style="--si-color:#ffffff;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/fastify.svg')"><span class="si-icon"></span><span>Fastify</span></div>
-            <div class="icon-item si-item" style="--si-color:#5a67d8;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/prisma.svg')"><span class="si-icon"></span><span>Prisma</span></div>
-            <div class="icon-item si-item" style="--si-color:#C5F74F;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/drizzle.svg')"><span class="si-icon"></span><span>Drizzle</span></div>
-            <div class="icon-item si-item" style="--si-color:#3068B7;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/zod.svg')"><span class="si-icon"></span><span>Zod</span></div>
-            <div class="icon-item si-item" style="--si-color:#34E27A;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/passport.svg')"><span class="si-icon"></span><span>Passport.js</span></div>
+        <div class="lang-card" data-tilt data-reveal style="--reveal-delay:120ms">
+          <i class="devicon-nodejs-plain colored glyph"></i>
+          <div>
+            <div class="lang-name">Node.js</div>
+            <div class="lang-meta">Runtime</div>
           </div>
         </div>
-
-        <div class="cat-block">
-          <span class="cat-label">Python</span>
-          <div class="icon-grid">
-            <div class="icon-item"><i class="devicon-fastapi-plain colored"></i><span>FastAPI</span></div>
-            <div class="icon-item"><i class="devicon-flask-original"></i><span>Flask</span></div>
-            <div class="icon-item si-item" style="--si-color:#E6522C;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/playwright.svg')"><span class="si-icon"></span><span>Playwright</span></div>
-            <div class="icon-item si-item" style="--si-color:#43B02A;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/selenium.svg')"><span class="si-icon"></span><span>Selenium</span></div>
-            <div class="icon-item si-item" style="--si-color:#150458;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pandas.svg')"><span class="si-icon"></span><span>Pandas</span></div>
-            <div class="icon-item si-item" style="--si-color:#E92063;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pydantic.svg')"><span class="si-icon"></span><span>Pydantic</span></div>
+        <div class="lang-card" data-tilt data-reveal style="--reveal-delay:180ms">
+          <i class="devicon-typescript-plain colored glyph"></i>
+          <div>
+            <div class="lang-name">TypeScript</div>
+            <div class="lang-meta">Typed APIs</div>
           </div>
         </div>
+        <div class="lang-card" data-tilt data-reveal style="--reveal-delay:240ms">
+          <i class="devicon-python-plain colored glyph"></i>
+          <div>
+            <div class="lang-name">Python</div>
+            <div class="lang-meta">Automation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FRAMEWORKS ═══════════════════════════════ -->
+    <section class="section">
+      <div class="section-head" data-reveal>
+        <span class="section-index">03</span>
+        <h2 class="section-title">Frameworks &amp; Libraries</h2>
+        <span class="section-note">Per ecosystem</span>
+      </div>
+
+      <div class="card-grid">
+
+        <!-- C# / .NET -->
+        <article class="card" data-glow data-reveal>
+          <span class="card-label">C# / .NET</span>
+          <div class="icon-grid">
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#512BD4;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/dotnet.svg')"></span>
+              <span class="name">ASP.NET Core</span>
+            </div>
+            <div class="icon-item">
+              <span class="mono-glyph" style="--si-color:#512BD4">EF</span>
+              <span class="name">EF Core</span>
+            </div>
+            <div class="icon-item">
+              <span class="mono-glyph" style="--si-color:#68217A">ID</span>
+              <span class="name">Identity</span>
+            </div>
+            <div class="icon-item">
+              <span class="mono-glyph" style="--si-color:#2E9E8F">FV</span>
+              <span class="name">FluentValidation</span>
+            </div>
+            <div class="icon-item">
+              <span class="mono-glyph" style="--si-color:#B5477F">MR</span>
+              <span class="name">MediatR</span>
+            </div>
+            <div class="icon-item">
+              <span class="mono-glyph" style="--si-color:#BE3F31">AM</span>
+              <span class="name">AutoMapper</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Java -->
+        <article class="card" data-glow data-reveal style="--reveal-delay:60ms">
+          <span class="card-label">Java</span>
+          <div class="icon-grid">
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#6DB33F;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/springboot.svg')"></span>
+              <span class="name">Spring Boot</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#6DB33F;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/springsecurity.svg')"></span>
+              <span class="name">Spring Security</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#6DB33F;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/spring.svg')"></span>
+              <span class="name">Spring Data JPA</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#BCAE79;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/hibernate.svg')"></span>
+              <span class="name">Hibernate</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#C71A36;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/apachemaven.svg')"></span>
+              <span class="name">Maven</span>
+            </div>
+            <div class="icon-item">
+              <span class="mono-glyph" style="--si-color:#E8A33D">MS</span>
+              <span class="name">MapStruct</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Node / TS -->
+        <article class="card" data-glow data-reveal style="--reveal-delay:120ms">
+          <span class="card-label">Node.js / TypeScript</span>
+          <div class="icon-grid">
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#E0234E;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/nestjs.svg')"></span>
+              <span class="name">NestJS</span>
+            </div>
+            <div class="icon-item">
+              <i class="devicon-express-original glyph" style="color:#e6edf3"></i>
+              <span class="name">Express</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#ffffff;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/fastify.svg')"></span>
+              <span class="name">Fastify</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#5a67d8;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/prisma.svg')"></span>
+              <span class="name">Prisma</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#C5F74F;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/drizzle.svg')"></span>
+              <span class="name">Drizzle</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#3E67B1;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/zod.svg')"></span>
+              <span class="name">Zod</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#34E27A;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/passport.svg')"></span>
+              <span class="name">Passport.js</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Python -->
+        <article class="card" data-glow data-reveal style="--reveal-delay:180ms">
+          <span class="card-label">Python</span>
+          <div class="icon-grid">
+            <div class="icon-item">
+              <i class="devicon-fastapi-plain colored glyph"></i>
+              <span class="name">FastAPI</span>
+            </div>
+            <div class="icon-item">
+              <i class="devicon-flask-original glyph" style="color:#e6edf3"></i>
+              <span class="name">Flask</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#2EAD33;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/playwright.svg')"></span>
+              <span class="name">Playwright</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#43B02A;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/selenium.svg')"></span>
+              <span class="name">Selenium</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#9d6ee8;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pandas.svg')"></span>
+              <span class="name">Pandas</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#E92063;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pydantic.svg')"></span>
+              <span class="name">Pydantic</span>
+            </div>
+          </div>
+        </article>
 
       </div>
     </section>
 
-    <!-- DATABASES & MESSAGING -->
+    <!-- ═══ DATA & MESSAGING ═════════════════════════ -->
     <section class="section">
-      <h2 class="section-title">▾ Databases &amp; Messaging</h2>
-      <div class="category-grid">
+      <div class="section-head" data-reveal>
+        <span class="section-index">04</span>
+        <h2 class="section-title">Data &amp; Messaging</h2>
+        <span class="section-note">Persistence · queues · real-time</span>
+      </div>
 
-        <div class="cat-block">
-          <span class="cat-label">Databases</span>
-          <div class="icon-grid">
-            <div class="icon-item"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
-            <div class="icon-item si-item" style="--si-color:#CC2927;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftsqlserver.svg')"><span class="si-icon"></span><span>SQL Server</span></div>
-            <div class="icon-item"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
-            <div class="icon-item"><i class="devicon-redis-plain colored"></i><span>Redis</span></div>
-          </div>
-        </div>
+      <div class="card-grid">
 
-        <div class="cat-block">
-          <span class="cat-label">Messaging &amp; Real-Time</span>
+        <article class="card" data-glow data-reveal>
+          <span class="card-label">Databases</span>
           <div class="icon-grid">
-            <div class="icon-item si-item" style="--si-color:#FF6600;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/rabbitmq.svg')"><span class="si-icon"></span><span>RabbitMQ</span></div>
-            <div class="icon-item"><i class="devicon-redis-plain colored"></i><span>BullMQ</span></div>
-            <div class="icon-item si-item" style="--si-color:#a0aec0;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/socketdotio.svg')"><span class="si-icon"></span><span>WebSockets</span></div>
+            <div class="icon-item">
+              <i class="devicon-postgresql-plain colored glyph"></i>
+              <span class="name">PostgreSQL</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#CC2927;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftsqlserver.svg')"></span>
+              <span class="name">SQL Server</span>
+            </div>
+            <div class="icon-item">
+              <i class="devicon-mysql-plain colored glyph"></i>
+              <span class="name">MySQL</span>
+            </div>
+            <div class="icon-item">
+              <i class="devicon-redis-plain colored glyph"></i>
+              <span class="name">Redis</span>
+            </div>
           </div>
-        </div>
+        </article>
 
-        <div class="cat-block">
-          <span class="cat-label">API &amp; Docs</span>
+        <article class="card" data-glow data-reveal style="--reveal-delay:60ms">
+          <span class="card-label">Messaging &amp; Real-Time</span>
           <div class="icon-grid">
-            <div class="icon-item si-item" style="--si-color:#85EA2D;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/swagger.svg')"><span class="si-icon"></span><span>Swagger</span></div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#FF6600;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/rabbitmq.svg')"></span>
+              <span class="name">RabbitMQ</span>
+            </div>
+            <!-- BullMQ: no official mark on any icon CDN — inline bull-head SVG in brand red -->
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#E4322B;--si-mask:url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3.2 3.1c1.9-.3 3.6.3 5.1 1.6h7.4c1.5-1.3 3.2-1.9 5.1-1.6.5.1.8.5.7 1-.3 1.9-1.2 3.4-2.7 4.4v2.8c0 4.2-3.5 7.6-7.8 7.6S3.2 15.5 3.2 11.3V8.5C1.7 7.5.8 6 .5 4.1c-.1-.5.2-.9.7-1Zm1.1 2.1c.4 1.2 1.1 2 2.2 2.5.3.2.5.5.5.9v2.7c0 3.1 2.6 5.6 5.8 5.6s5.8-2.5 5.8-5.6V8.6c0-.4.2-.7.5-.9 1.1-.5 1.8-1.3 2.2-2.5-1.2.1-2.2.7-3 1.7-.2.2-.5.4-.8.4H8.1c-.3 0-.6-.1-.8-.4-.8-1-1.8-1.6-3-1.7Z'/%3E%3Cellipse cx='9.1' cy='11.4' rx='1.4' ry='1.7'/%3E%3Cellipse cx='14.9' cy='11.4' rx='1.4' ry='1.7'/%3E%3Cpath d='M10.2 15.4h3.6c.4 0 .7.3.7.7 0 1.1-1.1 1.9-2.5 1.9s-2.5-.8-2.5-1.9c0-.4.3-.7.7-.7Z'/%3E%3C/svg%3E&quot;)"></span>
+              <span class="name">BullMQ</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#e6edf3;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/socketdotio.svg')"></span>
+              <span class="name">Socket.IO</span>
+            </div>
+            <div class="icon-item">
+              <span class="mono-glyph" style="--si-color:#38bdf8">WS</span>
+              <span class="name">WebSockets</span>
+            </div>
           </div>
-        </div>
+        </article>
+
+        <article class="card" data-glow data-reveal style="--reveal-delay:120ms">
+          <span class="card-label">API &amp; Docs</span>
+          <div class="icon-grid">
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#85EA2D;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/swagger.svg')"></span>
+              <span class="name">Swagger</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#6BA539;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openapiinitiative.svg')"></span>
+              <span class="name">OpenAPI</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="tag-list" data-reveal style="margin-top:14px">
+        <span class="tag">Message Queues</span>
+        <span class="tag">Job Queues</span>
+        <span class="tag">Dead Letter Queues</span>
+        <span class="tag">Priority Queues</span>
+        <span class="tag">Event-Driven Architecture</span>
+        <span class="tag">Pub/Sub</span>
+      </div>
+    </section>
+
+    <!-- ═══ ARCHITECTURE ═════════════════════════════ -->
+    <section class="section">
+      <div class="section-head" data-reveal>
+        <span class="section-index">05</span>
+        <h2 class="section-title">Architecture &amp; Security</h2>
+        <span class="section-note">How the systems are shaped</span>
+      </div>
+
+      <div class="card-grid">
+        <article class="card" data-glow data-reveal>
+          <span class="card-label">Architecture &amp; Design</span>
+          <div class="tag-list">
+            <span class="tag">Clean Architecture</span>
+            <span class="tag">Layered Architecture</span>
+            <span class="tag">Modular Monolith</span>
+            <span class="tag">Domain Driven Design</span>
+            <span class="tag">Design Patterns</span>
+            <span class="tag">SOLID</span>
+          </div>
+        </article>
+
+        <article class="card" data-glow data-reveal style="--reveal-delay:60ms">
+          <span class="card-label">Security</span>
+          <div class="icon-grid" style="margin-bottom:22px">
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#d63aff;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/jsonwebtokens.svg')"></span>
+              <span class="name">JWT</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#EB5424;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/auth0.svg')"></span>
+              <span class="name">OAuth2</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#003A70;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/letsencrypt.svg')"></span>
+              <span class="name">Let's Encrypt</span>
+            </div>
+            <div class="icon-item">
+              <span class="mono-glyph" style="--si-color:#39d353">TLS</span>
+              <span class="name">SSL/TLS</span>
+            </div>
+          </div>
+          <div class="tag-list">
+            <span class="tag">RBAC</span>
+            <span class="tag">Secure API Design</span>
+            <span class="tag">Input Validation</span>
+            <span class="tag">Firewall · UFW · iptables</span>
+            <span class="tag">Network Hardening</span>
+            <span class="tag">DNS Management</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ═══ INFRASTRUCTURE ═══════════════════════════ -->
+    <section class="section">
+      <div class="section-head" data-reveal>
+        <span class="section-index">06</span>
+        <h2 class="section-title">Infrastructure &amp; DevOps</h2>
+        <span class="section-note">Build · ship · observe</span>
+      </div>
+
+      <div class="card-grid">
+
+        <article class="card" data-glow data-reveal>
+          <span class="card-label">Containers &amp; Orchestration</span>
+          <div class="icon-grid">
+            <div class="icon-item">
+              <i class="devicon-docker-plain colored glyph"></i>
+              <span class="name">Docker</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#326CE5;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kubernetes.svg')"></span>
+              <span class="name">Kubernetes</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-glow data-reveal style="--reveal-delay:60ms">
+          <span class="card-label">CI/CD</span>
+          <div class="icon-grid">
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#2088FF;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/githubactions.svg')"></span>
+              <span class="name">GitHub Actions</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#FC6D26;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gitlab.svg')"></span>
+              <span class="name">GitLab CI</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#D24939;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/jenkins.svg')"></span>
+              <span class="name">Jenkins</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-glow data-reveal style="--reveal-delay:120ms">
+          <span class="card-label">Cloud &amp; Network</span>
+          <div class="icon-grid">
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#4285F4;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlecloud.svg')"></span>
+              <span class="name">Google Cloud</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#FF9900;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/amazonwebservices.svg')"></span>
+              <span class="name">AWS</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#0080FF;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/digitalocean.svg')"></span>
+              <span class="name">DigitalOcean</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#F38020;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cloudflare.svg')"></span>
+              <span class="name">Cloudflare</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#8B61FF;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/coolify.svg')"></span>
+              <span class="name">Coolify</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-glow data-reveal style="--reveal-delay:180ms">
+          <span class="card-label">Servers &amp; OS</span>
+          <div class="icon-grid">
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#E95420;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/ubuntu.svg')"></span>
+              <span class="name">Ubuntu</span>
+            </div>
+            <div class="icon-item">
+              <i class="devicon-debian-plain colored glyph"></i>
+              <span class="name">Debian</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#0078D6;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/windows.svg')"></span>
+              <span class="name">Windows Server</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#FCC624;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linux.svg')"></span>
+              <span class="name">Linux</span>
+            </div>
+            <div class="icon-item">
+              <i class="devicon-nginx-original colored glyph"></i>
+              <span class="name">Nginx</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-glow data-reveal style="--reveal-delay:240ms">
+          <span class="card-label">Monitoring</span>
+          <div class="icon-grid">
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#E6522C;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/prometheus.svg')"></span>
+              <span class="name">Prometheus</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#F46800;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/grafana.svg')"></span>
+              <span class="name">Grafana</span>
+            </div>
+          </div>
+        </article>
 
       </div>
     </section>
 
-    <!-- INFRASTRUCTURE & DEVOPS -->
+    <!-- ═══ TESTING & TOOLS ══════════════════════════ -->
     <section class="section">
-      <h2 class="section-title">▾ Infrastructure &amp; DevOps</h2>
-      <div class="category-grid">
-
-        <div class="cat-block">
-          <span class="cat-label">Containers & Orchestration</span>
-          <div class="icon-grid">
-            <div class="icon-item"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
-            <div class="icon-item si-item" style="--si-color:#326CE5;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kubernetes.svg')"><span class="si-icon"></span><span>Kubernetes</span></div>
-          </div>
-        </div>
-
-        <div class="cat-block">
-          <span class="cat-label">CI/CD</span>
-          <div class="icon-grid">
-            <div class="icon-item si-item" style="--si-color:#2088FF;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/githubactions.svg')"><span class="si-icon"></span><span>GitHub Actions</span></div>
-            <div class="icon-item si-item" style="--si-color:#FC6D26;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gitlab.svg')"><span class="si-icon"></span><span>GitLab CI</span></div>
-            <div class="icon-item si-item" style="--si-color:#D24939;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/jenkins.svg')"><span class="si-icon"></span><span>Jenkins</span></div>
-          </div>
-        </div>
-
-        <div class="cat-block">
-          <span class="cat-label">Cloud & Network</span>
-          <div class="icon-grid">
-            <div class="icon-item si-item" style="--si-color:#4285F4;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlecloud.svg')"><span class="si-icon"></span><span>Google Cloud</span></div>
-            <div class="icon-item si-item" style="--si-color:#232F3E;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/amazonwebservices.svg')"><span class="si-icon"></span><span>AWS</span></div>
-            <div class="icon-item si-item" style="--si-color:#0080FF;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/digitalocean.svg')"><span class="si-icon"></span><span>DigitalOcean</span></div>
-            <div class="icon-item si-item" style="--si-color:#F38020;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cloudflare.svg')"><span class="si-icon"></span><span>Cloudflare</span></div>
-            <div class="icon-item si-item" style="--si-color:#6B16FA;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/coolify.svg')"><span class="si-icon"></span><span>Coolify</span></div>
-          </div>
-        </div>
-
-        <div class="cat-block">
-          <span class="cat-label">Servers &amp; OS</span>
-          <div class="icon-grid">
-            <div class="icon-item si-item" style="--si-color:#E95420;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/ubuntu.svg')"><span class="si-icon"></span><span>Ubuntu</span></div>
-            <div class="icon-item"><i class="devicon-debian-plain colored"></i><span>Debian</span></div>
-            <div class="icon-item si-item" style="--si-color:#0078D6;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/windows.svg')"><span class="si-icon"></span><span>Windows Server</span></div>
-            <div class="icon-item si-item" style="--si-color:#FCC624;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linux.svg')"><span class="si-icon"></span><span>Linux</span></div>
-          </div>
-        </div>
-
-        <div class="cat-block">
-          <span class="cat-label">Web Server</span>
-          <div class="icon-grid">
-            <div class="icon-item"><i class="devicon-nginx-original colored"></i><span>Nginx</span></div>
-          </div>
-        </div>
-
-        <div class="cat-block">
-          <span class="cat-label">Monitoring</span>
-          <div class="icon-grid">
-            <div class="icon-item si-item" style="--si-color:#E6522C;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/prometheus.svg')"><span class="si-icon"></span><span>Prometheus</span></div>
-            <div class="icon-item si-item" style="--si-color:#F46800;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/grafana.svg')"><span class="si-icon"></span><span>Grafana</span></div>
-          </div>
-        </div>
-
+      <div class="section-head" data-reveal>
+        <span class="section-index">07</span>
+        <h2 class="section-title">Testing &amp; Tools</h2>
+        <span class="section-note">Daily driver</span>
       </div>
-    </section>
 
-    <!-- TESTING & TOOLS -->
-    <section class="section">
-      <h2 class="section-title">▾ Testing &amp; Tools</h2>
-      <div class="category-grid">
+      <div class="card-grid">
 
-        <div class="cat-block">
-          <span class="cat-label">Testing</span>
+        <article class="card" data-glow data-reveal>
+          <span class="card-label">Testing</span>
           <div class="icon-grid">
-            <div class="icon-item"><i class="devicon-dotnetcore-plain colored"></i><span>xUnit</span></div>
-            <div class="icon-item si-item" style="--si-color:#25A162;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/junit5.svg')"><span class="si-icon"></span><span>JUnit</span></div>
-            <div class="icon-item si-item" style="--si-color:#C21325;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/jest.svg')"><span class="si-icon"></span><span>Jest</span></div>
+            <div class="icon-item">
+              <span class="mono-glyph" style="--si-color:#512BD4">xU</span>
+              <span class="name">xUnit</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#25A162;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/junit5.svg')"></span>
+              <span class="name">JUnit</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#C21325;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/jest.svg')"></span>
+              <span class="name">Jest</span>
+            </div>
           </div>
-        </div>
+        </article>
 
-        <div class="cat-block">
-          <span class="cat-label">Tools</span>
+        <article class="card" data-glow data-reveal style="--reveal-delay:60ms">
+          <span class="card-label">Tooling</span>
           <div class="icon-grid">
-            <div class="icon-item"><i class="devicon-git-plain colored"></i><span>Git</span></div>
-            <div class="icon-item"><i class="devicon-github-original"></i><span>GitHub</span></div>
-            <div class="icon-item si-item" style="--si-color:#FF6C37;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/postman.svg')"><span class="si-icon"></span><span>Postman</span></div>
-            <div class="icon-item"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
-            <div class="icon-item si-item" style="--si-color:#5C2D91;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/visualstudio.svg')"><span class="si-icon"></span><span>Visual Studio</span></div>
-            <div class="icon-item si-item" style="--si-color:#fe315d;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/intellijidea.svg')"><span class="si-icon"></span><span>IntelliJ</span></div>
+            <div class="icon-item">
+              <i class="devicon-git-plain colored glyph"></i>
+              <span class="name">Git</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#e6edf3;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg')"></span>
+              <span class="name">GitHub</span>
+            </div>
+            <div class="icon-item">
+              <i class="devicon-vscode-plain colored glyph"></i>
+              <span class="name">VS Code</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#9B4F96;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/visualstudio.svg')"></span>
+              <span class="name">Visual Studio</span>
+            </div>
+            <div class="icon-item">
+              <span class="si-icon" style="--si-color:#fe315d;--si-mask:url('https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/intellijidea.svg')"></span>
+              <span class="name">IntelliJ</span>
+            </div>
           </div>
-        </div>
+        </article>
 
       </div>
     </section>
@@ -247,8 +594,174 @@
   </main>
 
   <footer>
-    <p>Currently working on SaaS platforms, automation systems and scalable backend architectures with production-grade infrastructure and security.</p>
+    <div class="shell footer-inner">
+      <p class="footer-statement">
+        Currently working on SaaS platforms, automation systems and scalable
+        backend architectures with production-grade infrastructure and security.
+      </p>
+      <div class="footer-meta">
+        <div><a href="mailto:doucrinei0110@gmail.com">doucrinei0110@gmail.com</a></div>
+        <div><a href="https://github.com/Douglas-dev404" target="_blank" rel="noopener">github.com/Douglas-dev404</a></div>
+        <div style="margin-top:10px">© <span id="year"></span> Douglas Cruz de Araújo</div>
+      </div>
+    </div>
   </footer>
+
+  <script>
+  (function () {
+    'use strict';
+
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    /* ── Current year ─────────────────────────────── */
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    /* ── Scroll reveal ────────────────────────────── */
+    var revealables = document.querySelectorAll('[data-reveal]');
+
+    if (reduceMotion || !('IntersectionObserver' in window)) {
+      revealables.forEach(function (el) { el.classList.add('is-visible'); });
+    } else {
+      var revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+
+      revealables.forEach(function (el) { revealObserver.observe(el); });
+    }
+
+    /* ── Cursor spotlight ─────────────────────────── */
+    var spotlight = document.querySelector('.spotlight');
+    if (spotlight && !reduceMotion && window.matchMedia('(pointer: fine)').matches) {
+      var tx = 0, ty = 0, cx = 0, cy = 0, running = false;
+
+      window.addEventListener('pointermove', function (e) {
+        tx = e.clientX;
+        ty = e.clientY;
+        spotlight.classList.add('is-live');
+        if (!running) { running = true; requestAnimationFrame(follow); }
+      }, { passive: true });
+
+      function follow() {
+        // Easing toward the pointer keeps the glow from feeling glued on.
+        cx += (tx - cx) * 0.12;
+        cy += (ty - cy) * 0.12;
+        spotlight.style.transform =
+          'translate3d(' + (cx - 310) + 'px,' + (cy - 310) + 'px, 0)';
+
+        if (Math.abs(tx - cx) > 0.5 || Math.abs(ty - cy) > 0.5) {
+          requestAnimationFrame(follow);
+        } else {
+          running = false;
+        }
+      }
+    }
+
+    /* ── Card directional glow ────────────────────── */
+    document.querySelectorAll('[data-glow]').forEach(function (card) {
+      card.addEventListener('pointermove', function (e) {
+        var r = card.getBoundingClientRect();
+        card.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+        card.style.setProperty('--my', (e.clientY - r.top) + 'px');
+      }, { passive: true });
+    });
+
+    /* ── 3D tilt on language cards ────────────────── */
+    if (!reduceMotion && window.matchMedia('(pointer: fine)').matches) {
+      document.querySelectorAll('[data-tilt]').forEach(function (card) {
+        card.addEventListener('pointermove', function (e) {
+          var r = card.getBoundingClientRect();
+          var px = (e.clientX - r.left) / r.width - 0.5;
+          var py = (e.clientY - r.top) / r.height - 0.5;
+          card.style.transform =
+            'perspective(700px) rotateX(' + (-py * 9).toFixed(2) + 'deg) ' +
+            'rotateY(' + (px * 9).toFixed(2) + 'deg) translateY(-4px)';
+          card.style.borderColor = 'var(--border-hover)';
+        }, { passive: true });
+
+        card.addEventListener('pointerleave', function () {
+          card.style.transform = '';
+          card.style.borderColor = '';
+        });
+      });
+    }
+
+    /* ── Typing effect ────────────────────────────── */
+    var typeTarget = document.querySelector('[data-typing]');
+    if (typeTarget) {
+      var words = typeTarget.dataset.words.split('|');
+
+      if (reduceMotion) {
+        typeTarget.textContent = words[0];
+      } else {
+        var wordIndex = 0, charIndex = 0, deleting = false;
+
+        (function type() {
+          var word = words[wordIndex];
+          charIndex += deleting ? -1 : 1;
+          typeTarget.textContent = word.slice(0, charIndex);
+
+          var delay = deleting ? 40 : 85;
+
+          if (!deleting && charIndex === word.length) {
+            deleting = true;
+            delay = 1900;                      // hold the finished word
+          } else if (deleting && charIndex === 0) {
+            deleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+            delay = 420;
+          }
+
+          setTimeout(type, delay);
+        })();
+      }
+    }
+
+    /* ── Animated counters ────────────────────────── */
+    var counters = document.querySelectorAll('[data-count]');
+
+    function runCounter(el) {
+      var target = parseInt(el.dataset.count, 10);
+      var suffix = el.dataset.suffix || '';
+
+      if (reduceMotion) {
+        el.textContent = target + suffix;
+        return;
+      }
+
+      var duration = 1400, started = null;
+
+      function step(now) {
+        if (started === null) started = now;
+        var progress = Math.min((now - started) / duration, 1);
+        var eased = 1 - Math.pow(1 - progress, 3);   // easeOutCubic
+        el.textContent = Math.round(target * eased) + suffix;
+        if (progress < 1) requestAnimationFrame(step);
+      }
+
+      requestAnimationFrame(step);
+    }
+
+    if (!('IntersectionObserver' in window)) {
+      counters.forEach(runCounter);
+    } else {
+      var counterObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            runCounter(entry.target);
+            counterObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.6 });
+
+      counters.forEach(function (el) { counterObserver.observe(el); });
+    }
+  })();
+  </script>
 
 </body>
 </html>
